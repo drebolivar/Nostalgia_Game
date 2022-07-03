@@ -1,6 +1,6 @@
 ## Project Title
 
-Nostalgia_Game
+# **Nostalgia_Game**
 
 ## Date: 07/01/22
 
@@ -24,10 +24,17 @@ A memory game with a focus on nostalgia.
 
 ---
 
-Task Lists
+# Resources
+
+- [GitHub](https://github.com/drebolivar/Nostalgia_Game)
+- [Trello](http://trello.com/b/0vZOQpqf/nostalgia-game)
+
+---
+
+# Task Lists
 
 - [ ] Finalize Name
-- [ ] Create Trello Board
+- [x] Create Trello Board
 - [x] Commit GitHub repository
 - [ ] Build Code
 - [ ] Determine Aesthetic
@@ -48,7 +55,3 @@ Alternative names for memory type game:
 - Pelmanism
 - Pexeso
 - Pairs
-
-Possible names:
-Nostalgia Urutora - A Memory Game
-Pexeso

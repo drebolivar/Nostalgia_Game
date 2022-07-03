@@ -1,0 +1,22 @@
+body {
+    background-image: url("http://www.ikes.16mb.com/pict/display/zlap_lcd.jpg");
+    background-color: #df2222;
+    background-repeat: repeat;
+}
+
+#board {
+    background-color: rgb(120, 241, 153);
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px  100px 100px 100px  100px ;
+    grid-template-rows: 200px 200px 200px 200px;
+    cursor: pointer
+}
+
+.tile{
+    color:hsl(247, 93%, 17%);
+    font-size:95px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 3px black;
+}
