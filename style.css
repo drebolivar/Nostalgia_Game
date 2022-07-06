@@ -1,6 +1,5 @@
-body {
-    background-image: url("http://www.ikes.16mb.com/pict/display/zlap_lcd.jpg");
-    background-color: #df2222;
+body  {
+    background-color: hsl(277, 92%, 20%);    
     background-repeat: repeat;
     display: flex;
     flex-direction: column;
@@ -8,18 +7,24 @@ body {
 }
 
 #board {
+    background-image: url("http://www.ikes.16mb.com/pict/display/zlap_lcd.jpg");
     background-color: rgb(120, 241, 153);
-    display: grid;
-    grid-template-columns: 100px 100px 100px 100px;
-    grid-template-rows: 200px 200px 200px;
-    cursor: pointer
+    width: 600px;
+    height: justified;
+    display: flex;
+    flex-wrap: wrap;
+    /* grid-template-columns: 150px  150px 150px 150px;
+    grid-template-rows: 225px 225px 225px; */
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }
 
-.tile{
+/* .card{
     color:hsl(247, 93%, 17%);
     font-size:95px;
     display: flex;
     justify-content: center;
     align-items: center;
     border: solid 3px black;
-}
+} */
