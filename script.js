@@ -12,16 +12,27 @@ const cardArray = [
   { name: 'cassette', img: 'resources/cassette.png' },
   { name: 'polaroid', img: 'resources/polaroid.png' }
 ]
+
+cardArray.sort(() => 0.5 - Math.random())
 const boardDisplay = document.querySelector('#board')
+let cardsShown = []
+let cardId = []
+const cardsWon = []
 
 function createBoard() {
   for (let i = 0; i < cardArray.length; i++) {
     const card = document.createElement('img')
     card.setAttribute('src', 'resources/staticcard.png')
     card.setAttribute('data-id', i)
+    card.addEventListener('click', showCard)
     boardDisplay.appendChild(card)
   }
 }
 
 createBoard()
 console.log(cardArray)
+
+function showCard() {
+  let cardId = this.getAttribute('data-id')
+  this.setAttribute('src', cardArray[cardId].img)
+}
