@@ -17,6 +17,7 @@ const cardArray = [
 let tempCards = []
 let displayIds = []
 let wonCards = []
+let attemptsCounter = 0
 
 // Board Info
 
@@ -52,6 +53,7 @@ function showCard() {
   }
 }
 //Check' the match, son
+
 function checkMatch() {
   const cards = document.querySelectorAll('img')
   let firstCard = displayIds[0]
@@ -65,7 +67,13 @@ function checkMatch() {
   } else {
     cards[firstCard].setAttribute('src', 'resources/staticcard.png')
     cards[secondCard].setAttribute('src', 'resources/staticcard.png')
+    attemptsCounter = attemptsCounter + 1
   }
   tempCards = []
   displayIds = []
+  matches.innerHTML = wonCards.length
+  attempts.innerHTML = attemptsCounter
+  if (wonCards.length == cardArray.length / 2) {
+    matches.innerHTML = 'All Matches Found!'
+  }
 }
