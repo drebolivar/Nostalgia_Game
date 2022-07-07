@@ -1,21 +1,25 @@
-body  {
-    background-image: linear-gradient(purple, #00ff84);   
-    background-repeat: no-repeat;
+html {
+    background: #ff98ff; 
+    background: cover;
+    font-family: 'VT323';
+}
+body {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#gamePage1{
-    color: white;
+#gamePage1 {
+    color: rgb(0, 0, 0);
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 .board {
-    background-image: url("http://www.ikes.16mb.com/pict/display/zlap_lcd.jpg");
+    background-image: url(/resources/gameboard.png);
     background-color: rgb(120, 241, 153);
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 600px;
     height: 100%;
     display: flex;
@@ -26,23 +30,39 @@ body  {
 }
 
 .introCard {
-    background-image: url("http://www.ikes.16mb.com/pict/display/zlap_lcd.jpg");
-    background-color: rgb(120, 241, 153);
-    width: 100%;
-    height: 100%;
+    background-image: url(/resources/introcard.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 600px;
+    height:600px;
+    margin-top: 5%;
+    border: solid 3px black;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+#nostalgia {
+    font-family: 'VT323';
+    font-size: 100px;
+    color: #7e41f9;
+    text-align: center;
+}
+
+#game {
+    font-size: 75px;
+    color:rgb(255, 0, 225);
+    text-align: center;
+}
 #countersDisplay{
     color: white;
     display: flex;
     flex-direction: table-row;
 }
-.button {
-    justify-content: center;
-    align-items: center;
-    align-self: center;
+
+.smiley {
+    height: 500px;
+    width: 600px;
+    margin: 0 auto;
 }
