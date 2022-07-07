@@ -43,6 +43,9 @@ function showCard() {
   tempCards.push(cardArray[identifier].item)
   displayIds.push(identifier)
   this.setAttribute('src', cardArray[identifier].img)
+  const cards = document.querySelectorAll('img')
+  let firstCard = displayIds[0]
+  cards[firstCard].removeEventListener('click', showCard)
   if (tempCards.length == 2) {
     setTimeout(checkMatch, 500)
   }
@@ -50,8 +53,8 @@ function showCard() {
 //Check' the match, son
 function checkMatch() {
   const cards = document.querySelectorAll('img')
-  const firstCard = displayIds[0]
-  const secondCard = displayIds[1]
+  let firstCard = displayIds[0]
+  let secondCard = displayIds[1]
   if (tempCards[0] == tempCards[1]) {
     cards[firstCard].setAttribute('src', 'resources/woncard.png')
     cards[secondCard].setAttribute('src', 'resources/woncard.png')
