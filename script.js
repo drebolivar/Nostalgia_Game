@@ -48,6 +48,7 @@ function showCard() {
   cards[firstCard].removeEventListener('click', showCard)
   if (tempCards.length == 2) {
     setTimeout(checkMatch, 500)
+    cards[firstCard].addEventListener('click', showCard)
   }
 }
 //Check' the match, son
