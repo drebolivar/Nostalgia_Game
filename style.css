@@ -1,5 +1,5 @@
 html {
-    background: #ff98ff; 
+    background: rgb(177, 101, 177); 
     background: cover;
     font-family: 'VT323';
 }
@@ -65,4 +65,10 @@ body {
     height: 500px;
     width: 600px;
     margin: 0 auto;
+}
+
+button {
+    background-color: green;
+    font-size: 25px;
+
 }
