@@ -13,8 +13,8 @@ body  {
     height: justified;
     display: flex;
     flex-wrap: wrap;
-    grid-template-columns: 150px  150px 150px 150px;
-    grid-template-rows: 225px 225px 225px;
+    /* grid-template-columns: 150px  150px 150px 150px;
+    grid-template-rows: 225px 225px 225px; */
     justify-content: center;
     align-items: center;
     cursor: pointer;

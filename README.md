@@ -39,7 +39,7 @@ A memory game with a focus on nostalgia.
 - [x] Create assets
 - [x] Display Gameboard
 - [x] Connect Gameboard
-- [ ] Develop Logic for gamecheck
+- [x] Develop Logic for gamecheck
 - [ ] Determine Aesthetic
 - [ ] Add Match attempts/found score
 

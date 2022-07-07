@@ -12,17 +12,18 @@ const cardArray = [
   { item: 'cassette', img: 'resources/cassette.png' },
   { item: 'polaroid', img: 'resources/polaroid.png' }
 ]
-// Constantly Constants
-const boardDisplay = document.querySelector('#board')
+// Card Info
+
 let tempCards = []
 let displayIds = []
-const wonCards = []
+let wonCards = []
 
-// Randomizer
+// Board Info
 
+const boardDisplay = document.querySelector('#board')
+const resultDisplay = document.querySelector('#result')
 cardArray.sort(() => 0.5 - Math.random())
 
-// Ballers, I put memories on the board ...
 function createBoard() {
   for (let i = 0; i < cardArray.length; i++) {
     const card = document.createElement('img')
@@ -36,13 +37,14 @@ function createBoard() {
 createBoard()
 
 // Flippin' the card
+
 function showCard() {
   let identifier = this.getAttribute('data-id')
   tempCards.push(cardArray[identifier].item)
   displayIds.push(identifier)
   this.setAttribute('src', cardArray[identifier].img)
-  if (tempCards.length === 2) {
-    setTimeout(checkMatch, 750)
+  if (tempCards.length == 2) {
+    setTimeout(checkMatch, 500)
   }
 }
 //Check' the match, son
@@ -53,6 +55,8 @@ function checkMatch() {
   if (tempCards[0] == tempCards[1]) {
     cards[firstCard].setAttribute('src', 'resources/woncard.png')
     cards[secondCard].setAttribute('src', 'resources/woncard.png')
+    cards[firstCard].removeEventListener('click', showCard)
+    cards[secondCard].removeEventListener('click', showCard)
     wonCards.push(tempCards)
   } else {
     cards[firstCard].setAttribute('src', 'resources/staticcard.png')
