@@ -41,7 +41,7 @@ A memory game with a focus on nostalgia.
 - [x] Connect Gameboard
 - [x] Develop Logic for gamecheck
 - [ ] Determine Aesthetic
-- [ ] Add Match attempts/found score
+- [x] Add Match attempts/found score
 
 # Stretch Goals
 

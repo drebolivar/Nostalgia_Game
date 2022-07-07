@@ -21,9 +21,10 @@ let attemptsCounter = 0
 
 // Board Info
 
-const boardDisplay = document.querySelector('#board')
-const resultDisplay = document.querySelector('#result')
+let boardDisplay = document.querySelector('.board')
 cardArray.sort(() => 0.5 - Math.random())
+const reset = document.getElementById('reset')
+reset.addEventListener('click', restart)
 
 function createBoard() {
   for (let i = 0; i < cardArray.length; i++) {
@@ -34,8 +35,10 @@ function createBoard() {
     boardDisplay.appendChild(card)
   }
 }
-
 createBoard()
+function restart() {
+  location.reload()
+}
 
 // Flippin' the card
 
@@ -74,6 +77,6 @@ function checkMatch() {
   matches.innerHTML = wonCards.length
   attempts.innerHTML = attemptsCounter
   if (wonCards.length == cardArray.length / 2) {
-    matches.innerHTML = 'All Matches Found!'
+    matches.innerHTML = 'All'
   }
 }
