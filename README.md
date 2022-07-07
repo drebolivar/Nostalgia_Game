@@ -33,14 +33,15 @@ A memory game with a focus on nostalgia.
 
 # Task Lists
 
-- [ ] Finalize Name
+- [x] Finalize Name
 - [x] Create Trello Board
 - [x] Commit GitHub repository
 - [x] Create assets
 - [x] Display Gameboard
-- [ ] Connect Gameboard
+- [x] Connect Gameboard
 - [ ] Develop Logic for gamecheck
 - [ ] Determine Aesthetic
+- [ ] Add Match attempts/found score
 
 # Stretch Goals
 
@@ -59,7 +60,7 @@ Alternative names for memory type game:
 - Shinkei-suijaku ("nervous breakdown")
 - Matching Pairs
 - Match Match
-- Match Upg
+- Match Up
 - Pelmanism
 - Pexeso
 - Pairs
