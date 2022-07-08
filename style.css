@@ -16,7 +16,7 @@ body {
     align-items: center;
 }
 .board {
-    background-image: url(/resources/gameboard.png);
+    background-image: url(/resources/vaporwaveback.png);
     background-color: rgb(120, 241, 153);
     background-repeat: no-repeat;
     background-size: cover;
