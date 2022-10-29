@@ -1,0 +1,28 @@
+{
+  "name": "nostalgia_game",
+  "version": "1.0.0",
+  "description": "A memory game focused on nostalgia.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drebolivar/Nostalgia_Game.git"
+  },
+  "author": "Dre Bolivar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drebolivar/Nostalgia_Game/issues"
+  },
+  "homepage": "https://github.com/drebolivar/Nostalgia_Game#readme",
+  "devDependencies": {
+    "git-scripts": "^0.6.4",
+    "surge": "^0.23.1"
+  },
+  "git": {
+    "scripts": {
+      "pre-push": "surge --project ./ --domain example-githooks.surge.sh"
+    }
+  }
+}
