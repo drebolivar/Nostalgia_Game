@@ -29,7 +29,7 @@ reset.addEventListener('click', restart)
 function createBoard() {
   for (let i = 0; i < cardArray.length; i++) {
     const card = document.createElement('img')
-    card.setAttribute('src', 'resources/staticcard2.png')
+    card.setAttribute('src', 'resources/staticcard3.png')
     card.setAttribute('data-id', i)
     card.addEventListener('click', showCard)
     boardDisplay.appendChild(card)
@@ -68,8 +68,8 @@ function checkMatch() {
     cards[secondCard].removeEventListener('click', showCard)
     wonCards.push(tempCards)
   } else {
-    cards[firstCard].setAttribute('src', 'resources/staticcard2.png')
-    cards[secondCard].setAttribute('src', 'resources/staticcard2.png')
+    cards[firstCard].setAttribute('src', 'resources/staticcard3.png')
+    cards[secondCard].setAttribute('src', 'resources/staticcard3.png')
     attemptsCounter = attemptsCounter + 1
   }
   tempCards = []
