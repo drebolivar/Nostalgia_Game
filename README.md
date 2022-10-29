@@ -50,6 +50,6 @@ A memory game with a focus on nostalgia.
 
 ---
 
-![Image](https://www.zocalopublicsquare.org/wp-content/uploads/2022/02/nostalgia-L.jpg)
+![Screenshot](https://i.imgur.com/KxQNUY8.png)
 
 ---
