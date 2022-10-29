@@ -27,7 +27,7 @@ A memory game with a focus on nostalgia.
 # Resources
 
 - [GitHub](https://github.com/drebolivar/Nostalgia_Game)
-- [Trello](http://trello.com/b/0vZOQpqf/nostalgia-game)
+- [Deployed Site](https://nostalgia_game.surge.sh)
 
 ---
 
@@ -40,7 +40,7 @@ A memory game with a focus on nostalgia.
 - [x] Display Gameboard
 - [x] Connect Gameboard
 - [x] Develop Logic for gamecheck
-- [ ] Determine Aesthetic
+- [x] Determine Aesthetic
 - [x] Add Match attempts/found score
 
 # Stretch Goals
@@ -53,14 +53,3 @@ A memory game with a focus on nostalgia.
 ![Image](https://www.zocalopublicsquare.org/wp-content/uploads/2022/02/nostalgia-L.jpg)
 
 ---
-
-Alternative names for memory type game:
-
-- Memory
-- Shinkei-suijaku ("nervous breakdown")
-- Matching Pairs
-- Match Match
-- Match Up
-- Pelmanism
-- Pexeso
-- Pairs
