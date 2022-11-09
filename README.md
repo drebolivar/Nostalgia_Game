@@ -30,18 +30,6 @@ A memory game with a focus on nostalgia and vaporwave * a e s t h e t i c *.
 
 ---
 
-# Task Lists
-
-- [x] Finalize Name
-- [x] Create Trello Board
-- [x] Commit GitHub repository
-- [x] Create assets
-- [x] Display Gameboard
-- [x] Connect Gameboard
-- [x] Develop Logic for gamecheck
-- [x] Determine Aesthetic
-- [x] Add Match attempts/found score
-
 # Stretch Goals
 
 - [ ] Sound Effects
