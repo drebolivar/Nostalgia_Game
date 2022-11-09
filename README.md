@@ -1,4 +1,4 @@
-![Nostalgia_Game](resources/nostalgia_header.png)
+![Nostalgia_Game](resources/nostalgiasc.png)
 # **Nostalgia_Game**
 
 ## Date: 07/01/22
