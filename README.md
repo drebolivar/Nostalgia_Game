@@ -1,18 +1,17 @@
-## Project Title
-
+![Nostalgia_Game](resources/nostalgia_header.png)
 # **Nostalgia_Game**
 
 ## Date: 07/01/22
 
 # By: Andres Bolivar
 
-[Instagram](http://www.instagram.com/dredose) | [LinkedIn](http://www.linkedin.com/in/drebolivar) | [Github](http://www.github.com/drebolivar) |
+[Instagram](http://www.instagram.com/dredose) | [LinkedIn](http://www.linkedin.com/in/drebolivar) | [Github](http://www.github.com/drebolivar) | [Portfolio](http://drebolivar.github.io/portfolio)
 
 ---
 
 # Description
 
-A memory game with a focus on nostalgia.
+A memory game with a focus on nostalgia and vaporwave a e s t h e t i c.
 
 ---
 
@@ -50,6 +49,6 @@ A memory game with a focus on nostalgia.
 
 ---
 
-![Screenshot](https://i.imgur.com/KxQNUY8.png)
+![Screenshot](resources/nostalgia_game.png)
 
 ---
