@@ -36,6 +36,7 @@ A memory game with a focus on nostalgia and vaporwave * a e s t h e t i c *
 - [ ] Generational options
 
 ---
+# Screenshots
 
 ![Screenshot](resources/nostalgia_game.png)
 
