@@ -1,7 +1,7 @@
 ![Nostalgia_Game](resources/nostalgiasc.png)
 ### **Nostalgia_Game**
 ### Andres 'Dre' Bolivar | [07/01/2022]
-### [Github](http://www.github.com/drebolivar) | [Portfolio](http://drebolivar.github.io/portfolio) | [LinkedIn](http://www.linkedin.com/in/drebolivar) | [Instagram](http://www.instagram.com/dredose) | [Deployed](https://nostalgia_game.surge.sh/)
+### [Github](http://www.github.com/drebolivar) | [Portfolio](http://drebolivar.github.io/portfolio) | [LinkedIn](http://www.linkedin.com/in/drebolivar) | [Instagram](http://www.instagram.com/dredose)
 
 ---
 ## **_Description_**
