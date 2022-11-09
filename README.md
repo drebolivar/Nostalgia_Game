@@ -5,13 +5,13 @@
 
 # By: Andres Bolivar
 
-[Instagram](http://www.instagram.com/dredose) | [LinkedIn](http://www.linkedin.com/in/drebolivar) | [Github](http://www.github.com/drebolivar) | [Portfolio](http://drebolivar.github.io/portfolio)
+[Github](http://www.github.com/drebolivar) | [Portfolio](http://drebolivar.github.io/portfolio)| [LinkedIn](http://www.linkedin.com/in/drebolivar) | [Instagram](http://www.instagram.com/dredose) 
 
 ---
 
 # Description
 
-A memory game with a focus on nostalgia and vaporwave a e s t h e t i c.
+A memory game with a focus on nostalgia and vaporwave * a e s t h e t i c *.
 
 ---
 
